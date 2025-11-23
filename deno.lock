@@ -13,6 +13,7 @@
     "npm:@tauri-apps/plugin-fs@2": "2.2.0",
     "npm:@tauri-apps/plugin-http@2": "2.2.0",
     "npm:@tauri-apps/plugin-os@2": "2.2.0",
+    "npm:@tauri-apps/plugin-upload@*": "2.2.1",
     "npm:@types/node@*": "22.12.0",
     "npm:cheerio@*": "1.0.0",
     "npm:esbuild-plugin-solid@*": "0.6.0_esbuild@0.23.1_solid-js@1.9.3__seroval@1.1.1_@babel+core@7.26.0",
@@ -430,6 +431,12 @@
     },
     "@tauri-apps/plugin-os@2.2.0": {
       "integrity": "sha512-HszbCdbisMlu5QhCNAN8YIWyz2v33abAWha6+uvV2CKX8P5VSct/y+kEe22JeyqrxCnWlQ3DRx7s49Byg7/0EA==",
+      "dependencies": [
+        "@tauri-apps/api"
+      ]
+    },
+    "@tauri-apps/plugin-upload@2.2.1": {
+      "integrity": "sha512-2EyVhJYLAp2mJH0UzO3QGU0vPk/YWvAfdI2wXbczyzEZY/AZVa9wConyB1TV/NGhyJRim4LwWgkmnEvcKLkECw==",
       "dependencies": [
         "@tauri-apps/api"
       ]
